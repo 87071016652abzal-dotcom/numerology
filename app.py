@@ -1225,6 +1225,6 @@ if __name__ == "__main__":
     print(f"   ReportLab: {'✅' if REPORTLAB_OK else '❌'}")
     print("   15+ разделов · Умный парсинг · Память профиля")
     print("   Ctrl+C — остановить\n")
-   if __name__ == "__main__":
+if __name__ == "__main__":
     print("Бот запущен...")
     bot.infinity_polling(timeout=20, long_polling_timeout=10)
